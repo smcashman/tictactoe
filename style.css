@@ -1,0 +1,43 @@
+td {
+	height:100px;
+	width:100px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+body{
+	font-family:'Modak', serif;
+	background:#e0e0eb;
+}
+
+h2 {
+	text-align: center;
+	font:3em;
+}
+
+h1{
+	text-align: center;
+}
+
+.buttonwrapper {
+	margin: 0 auto;
+	max-width: 80px;
+	padding-top:20px;
+}
+
+.buttonwrapper input {
+	text-align: center;
+	max-width:100px;
+
+}
+
+.winnerbox {
+	padding-top:5px;
+	width: 100%;
+}
+
+.pandapanda {
+	margin: 0 auto;
+	max-width: 430px;
+	padding-right:130px;
+}

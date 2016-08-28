@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tictactoe</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+</head>
+<body>
+
+	<h1> Tic Tac Toe </h1>
+	
+
+	<table id='gameboard' style = 'width:80%; margin:0 auto'>
+		<tr>
+			<td class='topleft'></td>
+			<td class='topcenter'></td>
+			<td class='topright'></td>
+		</tr>
+		<tr>
+			<td class='midleft'></td>
+			<td class='midcenter'></td>
+			<td class='midright'></td>
+		</tr>
+		<tr>
+			<td class='bottomleft'></td>
+			<td class='bottomcenter'></td>
+			<td class='bottomright'></td>
+		</tr>
+		</table>
+
+		<h2 class="winnerbox"></h2>
+		<div class='pandapanda'>
+		</div>
+
+		<div class='buttonwrapper'>
+		<input type="submit" id="newGameButton" class="button" name="NewGame" value="New Game?"/>
+		</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
+	
+</body>
+</html>
